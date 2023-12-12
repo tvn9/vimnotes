@@ -1,3 +1,3 @@
 # VIM & MACVIM 
 
-[Tips and tricks on Vim and macvim](notes/notes.md) 
+[Tips and tricks on Vim and macvim](notes/vimnotes.md) 
