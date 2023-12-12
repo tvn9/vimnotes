@@ -56,7 +56,6 @@ Move to end of the file, press **G** or **Shift-G**
 
 Get information about the file, press **Ctrl-g**  
 
-
 ## Deleting text  
 
 Delete a letter, move the cursor to the targeted letter, press **x**  
@@ -78,8 +77,6 @@ Delete the whole line **dd**
 Delete 3 line down, press **d3d** or **d3j**    
 
 Delete 3 line up, press **d3k**  
-
-
 
 ## The **set** command  
 
