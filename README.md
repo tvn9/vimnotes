@@ -57,3 +57,11 @@ Move to end of the file, press **G** or **Shift-G**
 Get information about the file, press **Ctrl-g**  
 
 
+
+## The **set** command  
+
+To turn ruler on, type **:set ruler**  or using toggle on/off **:set ruler!**
+
+To turn ruller off, type **:set noruler**
+
+
