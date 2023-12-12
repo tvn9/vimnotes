@@ -93,8 +93,6 @@ Example to turn on line number:
 
 To run **set** command while in Vim, switch to **Normal Mode**, type **:set number**
 
-To learn more about vim's options available to set in the **.vimrc** file, type **:h options** 
-
 To find information about all current setting options, type **:set enter**  
 
 To turn ruler on, type **:set ruler**  or using toggle on/off **:set ruler!**
