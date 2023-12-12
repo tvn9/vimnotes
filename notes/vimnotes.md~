@@ -79,29 +79,51 @@ Delete 3 line down, press **d3d** or **d3j**
 
 Delete 3 line up, press **d3k**  
 
-## The **set** command  allow user to customize Vim features in the .vimrc file in Unix, Linux home directory
+## The **set** command allows user to customize Vim features 
 
-What is ~/.vimrc? => vim = **vim**; **rc** = run command 
+To learn more about vim's options available for the **.vimrc** file, type **:h options** 
+
+Vim **set** can be programmed in the **.vimrc** file in Unix, Linux home directory
+
+What is ~/.vimrc?, vim = **vim**; **rc** = run command 
+
+Unix, Linex home: ~/.vimrc
 
 Windows: $HOME/_vimrc  
 
 Inside the .vimrc file, enter the set commands without the colon:, just enter **set** **option** 
 
-Example to turn on line number:  
+Example, to turn on line number:  
 
-**set number**  
+enter this **set number** in the .vimrc file  
 
 To run **set** command while in Vim, switch to **Normal Mode**, type **:set number**
 
-To find information about all current setting options, type **:set enter**  
+To find information about the current settings, type **:set enter**  
 
-To turn ruler on, type **:set ruler**  or using toggle on/off **:set ruler!**
+To turn ruler on, type **:set ruler** or using toggle on/off **:set ruler!**
 
 To turn ruller off, type **:set noruler**
 
 To find information about a setting while inside vim, type **:set number?** 
 
 To find out if search highlight is enable, type **:set hls?"**  
+
+Set history to 1000, type **:set history=1000** or **set history=1000** inside the .vimrc file  
+
+Show incomplete command, use **set showcmd**  
+
+Show a menu when using tab completion, use **set wildmenu**  
+
+Set scrolloff lines, use **set scrolloff=5**
+
+Set incremental search, use **set incsearch**  
+
+Set ignorecase search, use **set ignorecase** 
+
+Turn on smart case, use **set smartcase**  
+
+
 
 
 
