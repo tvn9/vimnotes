@@ -4,23 +4,34 @@ Just alot of tips on vim
 ## Quick Start  
 
 Start vim by typing vim from the Unix terminal
-$ vim <Enter>
+$ vim [Enter]
 
 To start macvim  
-$ mvim <Enter>  
+$ mvim [Enter]  
 
 Quit vim  
-From inside vim app, switch to Normal Mode pressing ESC key, then type : <Enter>
-:q! <Enter>
+From inside vim app, switch to Normal Mode pressing ESC key, then type : <Enter> 
+
+:q [Enter]  
+  
+
+To quit vim without saving changes to the file  
+:q! [Enter]  
+
 
 Create and edit a new file  
-$ vim filename.txt <Enter>  
+$ vim filename.txt [Enter]    
 
 Edit and existing file  
-$ vim filename.txt <Enter>  
+$ vim filename.txt [Enter]  
 
 To save the changes to the file and quit  
-:wq <Enter>  
+:wq [Enter]    
+
+To save the changes to the file without quiting vim  
+
+:w [Enter] 
+
 
 ## Moving around inside a file  
 
@@ -29,8 +40,8 @@ To move the cusor up, down, left and right, in Normal Mode type j | k | l | h
  
 To move up, down, left, or right multiple times, just press and hold the letter shown above.  
 
-To move down by page, press <ctrl-f> <Enter>
+To move down by page, press Ctrl-f [Enter]>
 
-To move up by page, press <ctrl-b> <Enter>
+To move up by page, press Ctrl-b [Enter]
 
  
