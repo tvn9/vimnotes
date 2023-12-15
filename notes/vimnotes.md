@@ -125,6 +125,20 @@ Turn on smart case, use **set smartcase**
 
 Turn on backup option, use **set backup**  
 
+Set the default extention for the backup file, use **set bex=BACKUP**  
+
+Set auto indentation, use **set ai**  
+
+Set smart indentation, use **set si**  
+
+## Working with Buffer 
+
+Open saveral files at once, type $ **vim file1.txt file2.txt fileN.txt Enter**  
+
+To see the list of buffer, type **:buffers** or **:ls** or **:
+
+While other files are opened, to open additional file, type *:edit filename.txt** or **:e filename**  
+
 
 
 
