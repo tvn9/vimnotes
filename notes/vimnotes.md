@@ -135,9 +135,29 @@ Set smart indentation, use **set si**
 
 Open saveral files at once, type $ **vim file1.txt file2.txt fileN.txt Enter**  
 
-To see the list of buffer, type **:buffers** or **:ls** or **:
+To see the list of buffer, type **:buffers** or **:ls** or **:files**  
 
-While other files are opened, to open additional file, type *:edit filename.txt** or **:e filename**  
+While other files are opened, to open additional file, type **:edit filename.txt** or **:e filename**  
+
+To work on different opened files, type **:buffers filename** or **:b filename**  
+
+**:b 1** will open file in buffer #1 
+
+**:b tab** repeat to cycle through the list of opened files
+
+**:b Ctrl-d** will bring up a list of files, then continue to type in the first few letters + tab to finish selecting the right file.  
+
+The quickest way to move around buffers or open files is **:ls** to list the buffers, then type **:b 2** to select the buffer number.  
+
+**:b next** will open the next file in the buffers
+
+**:bd8** delete buffer number 8  
+
+**:bw** will also close the active buffer 
+
+
+
+
 
 
 
