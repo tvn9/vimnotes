@@ -70,35 +70,35 @@ press **Ctrl-g**
 
 ## Deleting text  
 
-To delete a letter, move the cursor to the targeted letter 
-press **x**  
+To delete a letter, move the cursor to the targeted letter   
+**x**  
 
-To delete a word, move the cursor to start of the word 
-press **dw**  
+To delete a word, move the cursor to start of the word   
+**dw**  
 
-To delete 3 words forward 
-press **3dw** or **d3w**  
+To delete 3 words forward  
+**3dw** or **d3w**  
 
-To delete 3 words backward 
-press **3db** or **d3b**  
+To delete 3 words backward   
+**3db** or **d3b**  
 
-To delete from current letter to end of the line 
-press **d$**  
+To delete from current cursor to end of the line  
+**d$**  
 
-To delete from current letter to start of the line 
-press **d^**  
+To delete from current cursor to start of the line  
+**d^**  
 
-To delete in-text a word, the cursor can locate on any letter of the word 
-press **dit**  (dit = delete in text)  
+To delete in-text a word, the cursor can locate on any letter of the word  
+**dit**  (dit = delete in text)  
 
-To delete the whole line 
+To delete the whole line  
 **dd**  
 
 To delete 3 line down 
-press **d3d** or **d3j**    
+**d3d** or **d3j**    
 
-To delete 3 line up 
-press **d3k**  
+To delete 3 line up  
+**d3k**  
 
 ## The **set** command allows user to customize Vim features 
 
